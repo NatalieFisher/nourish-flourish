@@ -1,0 +1,36 @@
+@import "reset.scss";
+@import "grid.scss";
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    margin-top: 10px;
+
+
+    img {
+        max-width: 30%;
+    }
+}
+
+
+.nav {
+    text-align: right;
+
+
+
+    li {
+        display: inline;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        font-weight: bold;
+    }
+}
