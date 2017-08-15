@@ -668,21 +668,132 @@ table {
 body {
   font-family: 'Source Sans Pro', sans-serif; }
 
-header {
-  margin-top: 10px; }
-  header img {
-    max-width: 30%; }
+img {
+  display: block;
+  max-width: 100%; }
 
-.nav {
-  text-align: right; }
-  .nav li {
+h1 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 5px; }
+  @media (min-width: 760px) {
+    h1 {
+      font-size: 35px; } }
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600; }
+  @media (min-width: 760px) {
+    h2 {
+      font-size: 26px; } }
+
+h3 {
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 40px; }
+  @media (min-width: 760px) {
+    h3 {
+      font-size: 22px; } }
+
+p {
+  font-size: 16px;
+  line-height: 1.5em; }
+  @media (min-width: 760px) {
+    p {
+      font-size: 19px; } }
+
+nav {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px 0;
+  border-bottom: 1px solid #f5f3fd; }
+  nav img {
+    max-width: 40%;
+    display: none; }
+    @media (min-width: 760px) {
+      nav img {
+        max-width: 30%;
+        display: block; } }
+  nav img:hover {
+    transform: scale(1.1);
+    transition: all 0.8s ease-in-out; }
+
+.links {
+  text-align: center; }
+  @media (min-width: 500px) {
+    .links {
+      text-align: right; } }
+  .links li {
     display: inline;
-    margin-left: 15px;
+    margin-left: 30px;
     font-size: 18px; }
-  .nav a {
+    @media (min-width: 500px) {
+      .links li {
+        margin-left: 15px; } }
+    .links li:first-child {
+      margin-left: 0; }
+  .links a {
     text-decoration: none;
     color: black; }
-  .nav a:hover {
+  .links a:hover {
     font-weight: bold; }
+
+header {
+  padding: 140px 0;
+  background-color: #f5f3fd; }
+  header img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto; }
+    @media (min-width: 760px) {
+      header img {
+        max-width: 50%; } }
+
+.the-shop {
+  padding: 60px 0 50px 0; }
+
+.text-image-layout {
+  text-align: center;
+  margin-bottom: 50px; }
+  @media (min-width: 760px) {
+    .text-image-layout {
+      text-align: left; } }
+  .text-image-layout img {
+    margin-top: 20px; }
+
+.gluten-free {
+  background-color: #f5f3fd;
+  padding: 60px 0; }
+  @media (min-width: 500px) {
+    .gluten-free {
+      background-color: white;
+      padding: 0; } }
+
+.find-us {
+  padding: 60px 0;
+  background-color: #f5f3fd; }
+  .find-us .address {
+    text-align: center;
+    margin-bottom: 20px; }
+    @media (min-width: 760px) {
+      .find-us .address {
+        text-align: left; } }
+
+.opening-times {
+  padding: 60px 0; }
+  .opening-times p {
+    text-align: center; }
+
+.footer {
+  padding: 40px 0;
+  background-color: #f5f3fd; }
+  .footer p {
+    font-size: 14px; }
+  .footer img {
+    display: inline-block;
+    max-width: 25px; }
+  .footer .social-icon {
+    text-align: right; }
 
 /*# sourceMappingURL=main.css.map */
