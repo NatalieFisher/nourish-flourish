@@ -761,6 +761,8 @@ header {
       text-align: left; } }
   .text-image-layout img {
     margin-top: 20px; }
+  .text-image-layout h3 {
+    padding-top: 40px; }
 
 .gluten-free {
   background-color: #f5f3fd;
